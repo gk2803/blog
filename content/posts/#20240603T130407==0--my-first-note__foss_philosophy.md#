@@ -1,0 +1,96 @@
++++
+title = "my first note"
+author = ["Georgios Kiriazidis"]
+date = 2024-06-03T13:04:00+03:00
+tags = ["foss", "philosophy"]
+draft = false
+p+++
+
+I was watching an interview of Richard Stallman with a journalist that
+turned into a heated debate about Free vs Proprietary software which
+nsadly is not the topic of the current text.  Richard also mentioned
+Free vs Open Source Software and how they are nothing
+alike.  In order to understand where the distinction lies, we first
+need to clarify  the definitions.
+
+**So what is a free software?**
+
+According to [GNU](https://www.gnu.org/philosophy/free-sw.html) a software is considered to be free when it satisfies
+the four essential freedoms:
+
+1.  The freedom to run the program for any purpose
+2.  The freedom to modify the program as you wish
+3.  The freedom to redistribute copies of the program
+4.  The freedom to distribute copies of a modified version of the
+    program
+
+By definition a software that follows those essential freedoms must
+have its source code openly available viz it has to be an `open source
+software` .  Any license that follows those guidelines is considered
+to fall under `Free Software's` umbrella.  The main representative of
+`Free Software` that encapsulates its philosophy and its general
+essence is the `GPL` license which comes with an additional caveat;
+Any modification of the software must come with `GPL` license as well.
+
+**What is an open source software?**
+
+Firstly, we need to distinguish the meaning of the expression `open
+source software` from the meaning of the _de facto_ definition of
+`Open Source Software`, which we will denote by capitalizing the first
+letter of each word.
+
+-   `open source software`
+    The obvious meaning of this expression is that people can look at the
+
+source code of the program.  Most people seem to misunderstand open
+source software in this narrowly defined sense which has nothing to do
+with the strict rule-based efinition of Free Software.
+
+-   `Open Source Software` (OSS)
+    is a looser version of Free Software.
+
+The official definition, as described by [OSI](https://opensource.org/osd) (which is recognized by several countries as the
+_de facto_ OSS definition), is almost the same as Free Software
+definition.  It's source code is openly available, it can be
+distributed, it can be modified and the modified versions can also be
+distributed.
+
+**So what's the difference between the two?**
+
+The main difference lies in the general philosophy of both terms.  On
+one hand Free Software is focused on users' rights and a strict
+ideological approach to the matter while OSS takes a more neutral and
+pragmatic stance.  We can understand  their approaches better if we take
+a glimpse at their main license representatives, GPL for Free
+Software and MIT for OSS.
+
+-   The GPL license
+    In addition to the four main rules of the Free Software the GPL
+    license has a `copyleft` rule.  Copyleft states that any organization
+    or individual that has modified the source code of a software under
+    the GPL license, _if_ she decides to ever release the program it is
+    **required** to also release the modified source code.  A notable
+    example of a software under GPL license is the Android Open Source
+    Project which is a modified version of the Linux kernel.
+-   MIT license MIT license has no such restrictions, leaving the user
+    or the organization free to decide whether they release the modified
+    source code of a software under MIT license.  This means that any
+    organization can modify an _open source_ software licensed under
+    MIT, modify it, and then release a proprietary version of it without
+    being obliged to release the source code.  An example of a OSS under
+    MIT license that has gone proprietary is Google Chrome which is a
+    modified version of the Chromium Project's browser.
+
+If someone considers GPL as the license of his software then he
+ensures that the software will remain free.  This might cause
+hesitation to developers that might want to incorporate the software
+to an existing proprietary base, eventually choosing a more permissive
+license such as MIT.  I like to picture those licenses as two trees
+growing side by side.  The MIT tree is dense on it's base - it is
+preferred by many developers due to its permissiveness -and short- it
+is easier for a branch to go proprietary and eventually halt its
+development.  On the other hand the GPL tree is sparser on its base
+-its restrictive nature doesn't make it a popular choice across
+developers- but taller -the mandatory freedom to propagate the
+existing branches make it less likely for its development to halt,
+leading to bigger heights than its rival.

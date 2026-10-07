@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tag1 on test</title>
+    <link>http://localhost:1313/tags/tag1/</link>
+    <description>Recent content in Tag1 on test</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Mar 2025 19:09:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tag1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>troktiko</title>
+      <link>http://localhost:1313/posts/20250302t190944--troktiko__curated/</link>
+      <pubDate>Sun, 02 Mar 2025 19:09:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/20250302t190944--troktiko__curated/</guid>
+      <description>&lt;p&gt;Το 2010 το τροκτικό ήταν για την ενημέρωση ότι είναι σήμερα το tiktok&#xA;για την ψυχαγωγία.  Καταιγιστική ροή ειδήσεων, clickbait επικεφαλίδες&#xA;και άρθρα που χωρούσαν σε μια οθόνη υπολογιστή ήταν τα βασικά&#xA;χαρακτηριστικά που το διέκριναν από τα συμβατικά μέσα της εποχής.  Το&#xA;γεγονός ότι ένα ανώνυμο μπλογκ κατάφερε να εκτοπίσει καταξιωμένες&#xA;εφημερίδες από τον χώρο του διαδικτύου ήταν πρωτοφανές.  Το τροκτικό&#xA;κατάφερε μέσα στα δύο μόλις χρόνια λειτουργίας του να γίνει ο αδιαμφισβήτητος&#xA;βασιλιάς της διαδικτυακής ενημέρωσης.  Το γεγονός βέβαια ότι αποτελούσε το πιο δημοφιλές ΜΜΕ εκείνης της&#xA;εποχής, δεν αντικατοπτρίζει την ποιότητα του περιεχομένου του, που&#xA;κατά κύριο λόγο ήταν ένα φαστ φουντ δημοσιογραφίας.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
